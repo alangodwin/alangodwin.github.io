@@ -1,7 +1,7 @@
 body {
     margin-left: 1rem;
     /*font-family: 'Roboto', sans-serif;*/
-    font-family: 'Arial Narrow', Arial, sans-serif, Calibri, sans-serif;
+    font-family: Arial, sans-serif, Calibri, sans-serif;
 
 }
 
@@ -24,7 +24,6 @@ header a {
     margin: 0 0.5rem;
 }
 nav {
-    margin-right: 1rem;
     color: white;
     display: flex;
     width: 100%;
@@ -69,8 +68,13 @@ img {
     margin-top: 200px;
 }
 
+.icon-container {
+    max-width: 2rem;
+}
+
 @media only screen and (min-width: 768px) {
     nav {
+        margin-right: 0.5rem;
         justify-content: flex-end;
     }
 
