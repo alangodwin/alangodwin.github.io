@@ -45,7 +45,7 @@ h1 {
     position: relative
 }
 
-img {
+#image-container img {
     width: 100%;
     height: auto;
     z-index: -1;
@@ -69,7 +69,12 @@ img {
 }
 
 .icon-container {
+    display: flex
+}
+
+.icon {
     max-width: 2rem;
+    height: auto;
 }
 
 @media only screen and (min-width: 768px) {
